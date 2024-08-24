@@ -176,8 +176,10 @@ const displayStr = `A total of ${raisedCard.innerHTML} has been raised for ${gam
 // console.log(displayStr);
 
 // create a new DOM element containing the template string and append it to the description container
-const newParagraphElement = `<p>${displayStr}</p>`;
-descriptionContainer.innerHTML += newParagraphElement;
+const newParagraphElement = document.createElement("p");
+newParagraphElement.innerHTML = displayStr;
+
+descriptionContainer.appendChild(newParagraphElement);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
@@ -192,7 +194,14 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+const [topGame, runnerUp] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+let topGameElement = document.createElement("p");
+topGameElement.innerHTML = `${topGame.name}`;
+firstGameContainer.appendChild(topGameElement);
 
 // do the same for the runner up item
+let runnerUpElement = document.createElement("p");
+runnerUpElement.innerHTML = `${runnerUp.name}`;
+secondGameContainer.appendChild(runnerUpElement);
