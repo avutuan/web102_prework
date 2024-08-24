@@ -2,7 +2,7 @@
 
 Submitted by: **Tuan Vu**
 
-\*_Sea Monster Crowdfunding_ is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+_Sea Monster Crowdfunding_ is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **10** hours spent in total
 
@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Add button on hover and on click things so you know when the the button is clicked and when you are hovering over it.
 
 ## Video Walkthrough
 
@@ -36,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Building this app has been an adventure, ... (list challenges)
 
 ## License
 
