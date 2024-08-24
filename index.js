@@ -110,7 +110,7 @@ function filterUnfundedOnly() {
 }
 
 // for the secret key
-console.log(filterUnfundedOnly());
+// console.log(filterUnfundedOnly());
 
 // show only games that are fully funded
 function filterFundedOnly() {
@@ -129,7 +129,7 @@ function filterFundedOnly() {
 }
 
 // for the secret key
-console.log(filterFundedOnly());
+// console.log(filterFundedOnly());
 
 // show all games
 function showAllGames() {
