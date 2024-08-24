@@ -106,11 +106,11 @@ function filterUnfundedOnly() {
     addGamesToPage(listOfUnfundedGames);
 
     // return the number of unfunded games
-    return listOfUnfundedGames.length;
+    return listOfUnfundedGames;
 }
 
 // for the secret key
-// console.log(filterUnfundedOnly());
+// console.log(filterUnfundedOnly().length);
 
 // show only games that are fully funded
 function filterFundedOnly() {
@@ -125,11 +125,11 @@ function filterFundedOnly() {
     addGamesToPage(listOfFundedGames);
 
     // return the number of funded games
-    return listOfFundedGames.length;
+    return listOfFundedGames;
 }
 
 // for the secret key
-// console.log(filterFundedOnly());
+// console.log(filterFundedOnly().length);
 
 // show all games
 function showAllGames() {
@@ -158,12 +158,26 @@ allBtn.addEventListener("click", showAllGames);
 const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
+let listOfUnfundedGames = GAMES_JSON.filter( (game) => {
+    return game.pledged < game.goal;
+});
 
+let numberOfUnfundedGames = listOfUnfundedGames.length;
 
 // create a string that explains the number of unfunded games using the ternary operator
+let hasMoreThanOneUnfundedGame = numberOfUnfundedGames > 1;
+let hasMoreThanOneGame = gamesCard > 1;
 
+const displayStr = `A total of ${raisedCard.innerHTML} has been raised for ${gamesCard.innerHTML} game${hasMoreThanOneGame ? "s": ""}. Currently, ${numberOfUnfundedGames} game${hasMoreThanOneUnfundedGame ? "s" : ""} remain${hasMoreThanOneUnfundedGame ? "" : "s"} unfunded. We need your help to fund these amazing games!`;
+
+// COMMENT: This code below is a little gross. I don't know if this is what you guys wanted instead of what's above.
+// const displayStr = `A total of ${raisedCard.innerHTML} has been raised for ${gamesCard.innerHTML} game${gamesCard.innerHTML > 1 ? "s": ""}. Currently, ${numberOfUnfundedGames} game${numberOfUnfundedGames > 1 ? "s" : ""} remain${numberOfUnfundedGames > 1 ? "" : "s"} unfunded. We need your help to fund these amazing games!`;
+
+// console.log(displayStr);
 
 // create a new DOM element containing the template string and append it to the description container
+const newParagraphElement = `<p>${displayStr}</p>`;
+descriptionContainer.innerHTML += newParagraphElement;
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
