@@ -17,13 +17,13 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Add button on hover and on click things so you know when the the button is clicked and when you are hovering over it.
+- [ ] N/A
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/web-demo-RA5ZVNP' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/web-demo-x7pZfnh' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -36,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-Building this app has been an adventure, ... (list challenges)
+I ran into time management challenges. I tasked myself with finishing on time. I did so by doing a little of the prework every week. The result was that I finished the prework on time. Another challenge I ran into was remembering JavaScript. The challenges involved destructuring, filtering, reducing, etc. I had trouble remembering exactly how many important things in JavaScript worked. I ended up solving my issue by Googling and refreshing myself on JavaScript content. This resulted in an increase in efficiency in finishing the prework which was extremely valuable towards the end.
 
 ## License
 
