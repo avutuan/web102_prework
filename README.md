@@ -17,17 +17,17 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] N/A
+- [ ] Add button on hover and on click things so you know when the the button is clicked and when you are hovering over it.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/YbDpu3y" ><a href="//imgur.com/a/YbDpu3y">web demo</a></blockquote>
+<img src='/codepath.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with Kap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -36,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-I ran into time management challenges. I tasked myself with finishing on time. I did so by doing a little of the prework every week. The result was that I finished the prework on time. Another challenge I ran into was remembering JavaScript. The challenges involved destructuring, filtering, reducing, etc. I had trouble remembering exactly how many important things in JavaScript worked. I ended up solving my issue by Googling and refreshing myself on JavaScript content. This resulted in an increase in efficiency in finishing the prework which was extremely valuable towards the end.
+Building this app has been an adventure. Starting out the pre work, I had issues figuring out if I wanted to do pull requests from my local repo to GitHub or just commit straight to my main branch. I did the pull requests initially because it was how the company I worked for did commits to GitHub; however, after pondering the idea, I figured there wasn't a point in doing that much work to push my commits to GitHub. I ended up just committing straight to the main branch and pushing it to GitHub. Another one of my challenges was time management. My situation was that between my internship and taking summer classes it was difficult to find time to do this prework. I tasked myself with finishing before the deadline. The actions I took to complete this was allocate time about every week or other week to do a challenge or two in the prework. The result was that I finished it in time even though my gif didn't work. I made my gif work by looking at another person's repo and seeing how they did it. I then copied how they did it. It now works.
 
 ## License
 
