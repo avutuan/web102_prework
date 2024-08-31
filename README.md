@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Add button on hover and on click things so you know when the the button is clicked and when you are hovering over it.
+- [ ] N/A
 
 ## Video Walkthrough
 
