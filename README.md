@@ -40,7 +40,7 @@ I ran into time management challenges. I tasked myself with finishing on time. I
 
 ## License
 
-    Copyright [2024] [Tuan Vu]
+    Copyright [2024] [CodePath]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
